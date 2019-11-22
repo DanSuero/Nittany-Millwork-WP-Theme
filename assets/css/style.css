@@ -1,0 +1,220 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Proxima Nova Alt Black';
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Black-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Black-webfont.woff2') format('woff2'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Black-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Black-webfont.ttf') format('truetype'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Black-webfont.svg#proxima_nova_altblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima Nova Alt Bold';
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Bold-webfont.svg#proxima_nova_altbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype')
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima Nova ScOsf Thin';
+    src: url('../fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.woff2') format('woff2'),
+         url('../fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.ttf') format('truetype'),
+         url('../fonts/Mark Simonson - Proxima Nova ScOsf Thin-webfont.svg#proxima_nova_scosfthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.woff2') format('woff2'),
+         url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/Mark Simonson - Proxima Nova Semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima Nova Thin';
+    src: url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff2') format('woff2'),
+         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.woff') format('woff'),
+         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.ttf') format('truetype'),
+         url('../fonts/Mark Simonson - Proxima Nova Thin-webfont.svg#proxima_nova_ltthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Global Classes*/
+a.nav-link { color:#1d1616; font-family: 'Proxima Nova Semibold'; font-size: 13px; font-weight: 500; letter-spacing: 0.1em; line-height: 2em }
+a.active { color: rgba(35,100,175,0.82); }
+a.nav-link:hover, a.active:hover { color: rgba(29,22,22,0.7); }
+hr { background-color: #bbb; border: none; height: 1px; margin: 34px 0;  width: 100%; }
+
+.btn { white-space: normal; }
+.btn:focus, input:focus, button:focus { box-shadow: none; }
+
+.h1-lg { color:#fff; font-family: 'futura-pt'; font-size: 67px; font-weight: 700; letter-spacing: 0.015em; line-height: 1em; margin:0 0 25px; }
+.h1-sm { color: #333; font-family: 'futura-pt'; font-size: 36px; font-weight: 700; letter-spacing: 0.015em; line-height: 1.2em; margin: 0 0 18px 0; text-align: center; text-transform: uppercase; }
+.h2-lg { color: #333; font-size: 36px; font-weight: 700; letter-spacing: 0.015em; line-height: 1.2em; margin: 0 0 34px 0; text-align: center; text-transform: uppercase; }
+.h2-md { color: #333; font-family: 'futura-pt'; font-size: 24px; font-weight: 700; letter-spacing: 0.015em; line-height: 1.2em; margin: 0 0 34px 0; text-align: center; text-transform: uppercase; }
+.h3-sm { font-family: 'Proxima Nova Semibold'; font-size: 19px; line-height: 1.8em; letter-spacing: 0.015em; margin: 0 0 34px; }
+
+.p-header { color: #99ccd1; font-family: 'JoseFin Sans'; font-size: 22px; font-weight: 600; line-height: 1.6em; margin: 0 0 25px 0; }
+.p-clean{ color: #333; font-family: 'Proxima Nova Semibold'; font-size: 19px; letter-spacing: 0.015em; line-height:  1.8em; margin: 0 0 34px 0; padding: 0 7px; text-align: center; }
+.p-sm-gray { color: #a3a3a3; font-family: 'Proxima Nova'; font-size: 16px; font-weight: 300; letter-spacing: 0.015em; line-height: 1.8em; }
+.content { background-color: rgba(46,46,46,.58); padding: 80px; }
+
+
+.h-100vh { height: 100vh; }
+.h-150{ height: 150px; }
+
+.btn-header { background-color: #d06281; color: #fff; font-family: 'Proxima Nova'; font-size: 17px; font-weight: 400; letter-spacing: 1px; line-height: 1em; padding: 1em 1.75em; text-transform: uppercase; }
+.btn-header:hover { background-color: rgba(208,98,129,.8); color: #fff; transition: background-color 0.1s ease-in-out; }
+.btn-border { color: #272727; border: 2px solid #272727; border-radius: 0; display: table; font-family: 'Proxima Nova Semibold'; font-size: 15px; letter-spacing: 0.1em; margin: 0 auto; padding: 21px 34px;  text-transform: uppercase; transition: background-color 0.1s linear, color 0.1s linear; }
+.btn-border:hover { background-color: #272727; color: #fff; }
+.btn-solid{ background-color: #272727; border-radius: 0; color: #FFF; display: table; font-family: 'Proxima Nova Semibold'; font-size: 14px; letter-spacing: 1px; padding: 1em 2.5em; text-transform: uppercase; }
+.btn-sm-solid { background-color: #272727; border-radius: 0; color: #FFF; display: table; font-family: 'Proxima Nova Semibold'; font-size: 12px; letter-spacing: 1px; padding: 13px 26px; text-transform: uppercase; }
+.btn-solid:hover, .btn-sm-solid:hover  { color: #FFF; opacity: 0.8; transition: opacity 0.1s ease-in-out; }
+
+/*Parallax Backgrounds*/
+.parWrapper{ position: relative; }
+.parallax-window {bottom:0; left: 0; position: absolute; overflow: hidden; right: 0; top:0; z-index: -1; }
+.parallax-window .rellax { background-position: center; background-size: cover; height: 110vh; position: relative; }
+
+.bg-homeHero { background-image: url('../images/home-hero.jpg'); }
+.bg-homeInterior { background-image: url('../images/home-interior.jpg'); }
+.bg-filler{ background-image: url('../images/telescope.jpg'); }
+
+/*Header Classes*/
+.header { background-color: rgba(255,255,255,0.9); padding: 25px 80px; position: absolute; top:0; z-index: 1; }
+.navbar-brand img { display: block; max-height: 100px; max-width: 269px; }
+.navbar-toggler-icon::after { color: #333; font-family: 'FontAwesome'; font-size: 30px; content: '\f0c9'; }
+
+/*Homepage Classes*/
+.scrollDwnArr { color: #000; bottom: 24px; cursor: pointer; height: 32px; left: 50%; position: absolute; margin: 0 0 0 -75px; text-align: center; width: 150px; }
+.scrollDwnArr::before{ content: '\f107'; font-family: 'FontAwesome';  font-size: 32px; line-height: 32px;  }
+.scrollDwnArr span { display: none; font-family: 'Proxima Nova'; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;}
+.scrollDwnArr:hover:before { content: '' }
+.scrollDwnArr:hover span{ display: inline-block;}
+.sectionPromise .content{ height: 718px; }
+.brand .col-md-auto { width: 20%; }
+.brand .features img{ margin: 0 0 34px; }
+.brand .break { margin: 0 0 68px; }
+
+/*Footer Styles*/
+footer { background-color: #3c342f; }
+.emailFormBox { background-color: rgba(53,212,233,.38); padding: 34px 17px; margin: 0 0 34px; }
+#emailSignUp h2 { color: #fff; font-size: 30px; font-weight: 700; letter-spacing: 0.015em; line-height: 1.2em; margin: 0 0 17px; }
+#emailSignUp p{ color: #fff; font-family: 'Proxima Nova'; font-size: 15px; line-height: 1.6em; margin: 0 0 34px; }
+#emailSignUp input { color: #272727; border: 1px solid rgba(0,0,0,.12); font-size: 15px; outline: none; padding: 1em; }
+#emailSignUp input::placeholder{ color: rgba(0,0,0,.3); }
+#emailSignUp .btn{ color: #FFF; cursor: pointer; background-color: #272727; font-size: 15px; outline: none; padding: 17px 2.5em; text-transform: uppercase; transition: opacity 0.1s linear; }
+#emailSignUp .btn:hover { opacity: 0.8; transition: opacity 0.1s linear;}
+#emailSignUp .privacy{ font-family: 'Proxima Nova'; font-size:12px;  }
+#emailSignUp .break { margin: 0 0 17px; }
+.callSearch h3 { font-family: 'Proxima Nova'; font-size: 19px; letter-spacing: 0.015em; line-height: 1.8em; }
+.callSearch a { display: inline-block; font-family: 'Proxima Nova'; font-size: 16px; letter-spacing: 0.015em; line-height: 1.8em; margin: 0 0 5px; }
+.callSearch .form-group{ position: relative; }
+.callSearch .form-group::after{ color: #f7f7f7; content: '\f002'; font-family: 'FontAwesome'; font-size: 18px; left: 15px; opacity: 0.7; position: absolute; top: 9px; }
+#search { background: none; border: 1px solid #eee; color: #f7f7f7; opacity: 0.7; padding: 12px 12px 12px 45px; transition: opacity 0.1s linear; }
+#search:hover, #search:focus, .callSearch .form-group:hover:after, .callSearch .form-group:focus:after { opacity: 1; transition: opacity 0.1s linear; }
+
+/*Modal Styles/Page 3 Form Styles*/
+.modal{ color: #222; }
+.modal-title { color: #333; font-family: 'Proxima Nova Thin'; font-size: 22px; line-height: 1.2em; }
+.close { cursor: pointer; font-family: 'Proxima Nova Thin'; font-size: 22px; line-height: 22px; }
+.modal .btn { background-color: #272727; cursor: pointer; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1em; opacity: 1; padding: 1em 2.5em; transition: opacity 0.1s ease; }
+.modal .btn:focus{ box-shadow: none; }
+
+#contact-form{ color: #a3a3a3; }
+.modal legend, #contact-form legend{ color: inherit; font-size: 14px; }
+.modal label , #contact-form label{ color: inherit; font-size: 12px; }
+.modal .btn:hover { opacity: 0.7; transition: opacity 0.1s ease; }
+.modal .form-control, #contact-form .form-control{ background-color: #fafafa; border: 1px solid #ccc; border-radius: 2px; box-sizing: border-box; color: #000; font-size: 14px; padding: 12px; }
+.modal .form-control:focus, #contact-form .form-control:focus;{ background-color: #fff; }
+
+/*Product Page Styles*/
+.product .feaImg { overflow: hidden; }
+.product .features img { width: auto; max-height: 324px; }
+.brand .img-fluid{ opacity: 0; }
+
+/*Page 3*/
+.blockqoute { color: #a3a3a3; font-family: 'Proxima Nova'; font-size: 1.4em; line-height: 1.6em; }
+.figure-caption{ font-family: 'Proxima Nova'; font-size: 16px; letter-spacing: 0.015em; line-height: 1.8em; }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+    .navbar-brand { width: 200px; }
+    .navbar-brand img { width: 100%;}
+    .nav-link{ text-align: center; }
+    .navbar-collapse{ padding-top: 24px; }
+    
+    .h1-lg{ font-size: 49px; }
+    
+    .sectionPromise .content{ height: 490px; }
+    
+    #emailSignUp h2{ font-size: 27px; }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) and (orientation: landscape) { 
+    .navbar-brand { width: 200px; }
+    .navbar-brand img { width: 100%;}
+    .nav-link{ text-align: center; }
+    .navbar-collapse{ padding-top: 24px; }
+    
+    .h1-lg{ font-size: 49px; }
+    
+    .sectionPromise .content{ height: 490px; } 
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) { 
+    .navbar-brand img { max-width: 100%;} 
+    .pt-md-136 { padding-top: 136px !important; }
+    
+    .p-header{ font-size: 13px; margin-bottom: 10px; }
+    
+    .btn-header{ font-size: 15px; padding: .75em 1em; }
+}
+
+@media (min-width: 992px) { 
+    .px-lg-80 { padding-left: 80px !important; padding-right: 80px !important; }
+    .p-lg-80{ padding: 80px !important; }
+    .pt-lg-236 { padding-top: 236px !important; }
+    .py-lg-25 { padding-top: 25px !important; padding-bottom: 25px !important; }
+    .wrapper { padding: 100px 90px !important; }
+}
+
