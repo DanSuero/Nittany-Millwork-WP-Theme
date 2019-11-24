@@ -1,4 +1,4 @@
-# NittanyMillworkWpTheme
+# Nittany Millwork WP Theme
 
 This is was my first theme I coded with Bootstrap 4.
 
